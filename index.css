@@ -1,5 +1,5 @@
 body{
-    background-color: #10161a;
+    background-color: #000000;
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -29,6 +29,13 @@ body{
 .navigation{
     position: relative;
     display: flex;
+    color: #fff;
+}
+
+.navigation p{
+    margin: 0 20px;
+    font-size: large;
+    font-weight: bold;
 }
 
 .nav_link {
@@ -227,7 +234,7 @@ body{
     justify-content: center;
     margin:0 auto;
     width: 70%;
-    height: 620px;
+    height: 500px;
 }
 
 .container-pic img {
@@ -240,7 +247,7 @@ body{
 
 .why-us{
     justify-content: center;
-    background-color: #ffff;
+    background-color: azure;
     padding:30px;
 }
 
@@ -257,3 +264,27 @@ body{
     border-radius:8px;
     margin: 10px 20px;
 }
+
+
+.footer{
+    padding: 30px 0;
+    margin: 0 auto;
+    font-size: medium;
+    color: #ffff;
+}
+
+.connect a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: large;
+}
+
+.connect{
+    margin: 20px 0 ;
+}
+
+
+
+
+
+
