@@ -1,0 +1,225 @@
+body{
+    background-color: #10161a;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #1f1847;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+.logo {
+    padding: 0 30px;
+    color: #ffff;
+    font-size: 18px;
+    transition: color 0.3s ease; 
+}
+
+.logo:hover {
+    color: #ffafaf;
+    cursor: pointer;
+}
+
+.navigation{
+    position: relative;
+    display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin: 0 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: rgb(205, 226, 248);
+    border: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+.wrapper-main {
+    background-color:#00204a;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    transition: background-color 0.3s ease; 
+}
+
+.container-1{
+    /* background: linear-gradient(to right, #3498db, #2ecc71); */
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-1-text {
+    justify-content: center;
+    text-align: center;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+.container-1-image {
+    padding: 0px;
+    margin: 0 40px;
+}
+
+.container-2-image {
+    position: relative;
+    max-width: 400px;
+    max-height: 230px;
+    padding: 0px;
+    margin: 0 40px;
+    background-color: transparent;
+}
+
+.container-2-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 6px solid #ffff;
+    border-top-right-radius: 10px ;
+    border-top-left-radius: 10px ;
+    box-sizing: border-box; 
+    z-index: 1; 
+  }
+
+
+.text-typing {
+    padding: 10px 50px;
+    font-size: 42px;
+    font-family: monospace;
+    width: 78%;
+    margin: 0 auto;
+}
+
+.training{
+    background-color: #008080;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.heading h1{
+    font-size: 36px;
+    margin : 0 20px;
+}
+
+.certificate-course{
+    padding: 30px 20px;
+    background-color: #1d467b;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.courses{
+    display: flex;
+    justify-content: center;
+    color: #1e233a;
+    flex-wrap:wrap;
+}
+
+.course-container:nth-child(even) {
+    box-sizing: border-box;
+    /* border: 7px solid #ffffff; */
+    border-radius: 8px;
+    padding: 10px;
+    background: linear-gradient(to right, #0077cc , #00cc99);
+    box-shadow: 0 0 8px 3px rgb(5, 5, 5, 0.2);
+    margin: 20px 20px;
+    width: 300px;
+}
+
+.course-container:nth-child(odd) {
+    box-sizing: border-box;
+    /* border: 7px solid #ffffff; */
+    border-radius: 8px;
+    padding: 10px;
+    background: linear-gradient(to right, #008080 , #ff6f61);
+    box-shadow: 0 0 8px 3px rgb(5, 5, 5, 0.2);
+    margin: 20px 20px;
+    width: 300px;
+}
+
+.fees{
+    color: rgb(117, 11, 11);
+}
+
+.course-container p{
+    font-size: larger;
+    letter-spacing: 0.06em;
+}
+
+
+
+
+
+.non-certificate-course{
+    padding: 30px 20px;
+    background-color: #006695;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.ncourses{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    flex-wrap:wrap;
+}
+
+.non-certificate-course-container:nth-child(even) {
+    box-sizing: border-box;
+    /* border: 7px solid #ffffff; */
+    border-radius: 8px;
+    padding: 10px;
+    background: linear-gradient(to right, #ffd700 , #00cc99);
+    box-shadow: 0 0 8px 3px rgb(5, 5, 5, 0.2);
+    margin: 20px 20px;
+    width: 300px;
+}
+
+.non-certificate-course-container:nth-child(odd) {
+    box-sizing: border-box;
+    /* border: 7px solid #ffffff; */
+    border-radius: 8px;
+    padding: 10px;
+    background: linear-gradient(to right, #98fb98 , #9370db);
+    box-shadow: 0 0 8px 3px rgb(5, 5, 5, 0.2);
+    margin: 20px 20px;
+    width: 300px;
+}
+
+.fees{
+    color: rgb(117, 11, 11);
+}
+
+.course-container p{
+    font-size: larger;
+    letter-spacing: 0.06em;
+}
