@@ -31,14 +31,14 @@ body{
     display: flex;
 }
 
-.nav-link {
+.nav_link {
     text-decoration: none;
     margin: 0 5px;
     color: #fff;
     font-weight: bold;
 }
 
-.nav-link:hover {
+.nav_link:hover {
     color: rgb(205, 226, 248);
     border: none;
     border-bottom: 1px solid #ffffff;
@@ -219,6 +219,10 @@ body{
     padding: 50px 0;
 }
 
+.container-3  h1{
+    margin: 20px 0;
+}
+
 .container-pic {
     justify-content: center;
     margin:0 auto;
@@ -232,4 +236,24 @@ body{
     height: 100%;
     display: block; 
     margin: 0 auto;
+}
+
+.why-us{
+    justify-content: center;
+    background-color: #ffff;
+    padding:30px;
+}
+
+.choose-container{
+    display: flex;
+    justify-content: center;
+}
+
+.choose-container-content{
+    width: 270px;
+    box-shadow: 0 0 8px 3px rgb(5, 5, 5, 0.2);
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-radius:8px;
+    margin: 10px 20px;
 }
