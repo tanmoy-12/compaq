@@ -46,7 +46,7 @@ body{
 
 .wrapper-main {
     background-color:#00204a;
-    max-width: 1400px;
+    max-width: 2000px;
     margin: 0 auto;
     justify-content: center;
     text-align: center;
@@ -86,20 +86,10 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border: 5px solid #ffffff
 }
-
-.border {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 6px solid #ffff;
-    border-top-right-radius: 10px ;
-    border-top-left-radius: 10px ;
-    box-sizing: border-box; 
-    z-index: 1; 
-  }
 
 
 .text-typing {
@@ -174,10 +164,6 @@ body{
     letter-spacing: 0.06em;
 }
 
-
-
-
-
 .non-certificate-course{
     padding: 30px 20px;
     background-color: #006695;
@@ -222,4 +208,28 @@ body{
 .course-container p{
     font-size: larger;
     letter-spacing: 0.06em;
+}
+
+.container-3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: x-large;
+    padding: 50px 0;
+}
+
+.container-pic {
+    justify-content: center;
+    margin:0 auto;
+    width: 70%;
+    height: 620px;
+}
+
+.container-pic img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block; 
+    margin: 0 auto;
 }
