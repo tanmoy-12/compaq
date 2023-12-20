@@ -6,35 +6,32 @@ body{
 }
 
 .header {
-    background-color: #1f1847;
+    background-color: #826fea;
     margin: 0 auto;
-    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px; 
+    text-align: center;
+    padding: 5px; 
 }
 
 .logo {
-    padding: 0 30px;
+    padding: 0 10px;
     color: #ffff;
     font-size: 18px;
     transition: color 0.3s ease; 
 }
 
-.logo:hover {
-    color: #ffafaf;
-    cursor: pointer;
-}
-
 .navigation{
-    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
     display: flex;
     color: #fff;
 }
 
 .navigation p{
     margin: 0 20px;
-    font-size: large;
+    font-size: larger;
     font-weight: bold;
 }
 
@@ -43,6 +40,7 @@ body{
     margin: 0 5px;
     color: #fff;
     font-weight: bold;
+    font-size: larger;
 }
 
 .nav_link:hover {
@@ -60,12 +58,31 @@ body{
     transition: background-color 0.3s ease; 
 }
 
-.container-1{
-    /* background: linear-gradient(to right, #3498db, #2ecc71); */
-    padding: 20px 10px;
-    display: flex;
+.container-header {
     justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Add overflow: hidden to limit the child content */
 }
+
+.container-header-image {
+    top: 0;
+    left: 50%; /* Adjust the left position to center the image horizontally */
+    transform: translateX(-50%); /* Center the image horizontally */
+    width: fit-content;
+    opacity: 15%;
+    position: absolute;
+    z-index: 1; /* Ensure the image is behind the content in container-1 */
+}
+
+.container-1 {
+    padding: 10px;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+}
+
 
 .container-1-text {
     justify-content: center;
@@ -73,38 +90,6 @@ body{
     padding: 10px 20px;
     color: rgb(255, 255, 255);
     z-index: 2;
-}
-
-.container-1-image {
-    padding: 0px;
-    margin: 0 40px;
-}
-
-.container-2-image {
-    position: relative;
-    max-width: 400px;
-    max-height: 230px;
-    padding: 0px;
-    margin: 0 40px;
-    background-color: transparent;
-}
-
-.container-2-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-top-left-radius: 30%;
-    border-top-right-radius: 30%;
-    border: 5px solid #ffffff
-}
-
-
-.text-typing {
-    padding: 10px 50px;
-    font-size: 42px;
-    font-family: monospace;
-    width: 78%;
-    margin: 0 auto;
 }
 
 .training{
@@ -142,7 +127,7 @@ body{
 
 .course-container:nth-child(even) {
     box-sizing: border-box;
-    /* border: 7px solid #ffffff; */
+    border: 7px solid #ffffff;
     border-radius: 8px;
     padding: 10px;
     background: linear-gradient(to right, #0077cc , #00cc99);
@@ -153,22 +138,13 @@ body{
 
 .course-container:nth-child(odd) {
     box-sizing: border-box;
-    /* border: 7px solid #ffffff; */
+    border: 7px solid #ffffff;
     border-radius: 8px;
     padding: 10px;
-    background: linear-gradient(to right, #008080 , #ff6f61);
+    background: linear-gradient(to right, #008080 , #5ff6df);
     box-shadow: 0 0 8px 3px rgb(5, 5, 5, 0.2);
     margin: 20px 20px;
     width: 300px;
-}
-
-.fees{
-    color: rgb(117, 11, 11);
-}
-
-.course-container p{
-    font-size: larger;
-    letter-spacing: 0.06em;
 }
 
 .non-certificate-course{
@@ -188,7 +164,7 @@ body{
 
 .non-certificate-course-container:nth-child(even) {
     box-sizing: border-box;
-    /* border: 7px solid #ffffff; */
+    border: 7px solid #ffffff;
     border-radius: 8px;
     padding: 10px;
     background: linear-gradient(to right, #ffd700 , #00cc99);
@@ -199,7 +175,7 @@ body{
 
 .non-certificate-course-container:nth-child(odd) {
     box-sizing: border-box;
-    /* border: 7px solid #ffffff; */
+    border: 7px solid #ffffff;
     border-radius: 8px;
     padding: 10px;
     background: linear-gradient(to right, #98fb98 , #9370db);
@@ -207,11 +183,10 @@ body{
     margin: 20px 20px;
     width: 300px;
 }
-
-.fees{
-    color: rgb(117, 11, 11);
+.non-certificate-course-container p{
+    font-size: larger;
+    letter-spacing: 0.06em;
 }
-
 .course-container p{
     font-size: larger;
     letter-spacing: 0.06em;
@@ -253,6 +228,7 @@ body{
 
 .choose-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -267,21 +243,39 @@ body{
 
 
 .footer{
-    padding: 30px 0;
+    padding: 50px 0 70px 0;
     margin: 0 auto;
     font-size: medium;
-    color: #ffff;
+    color: #000000;
+    background-color: #b9fbea;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+
+.footer-content{
+    margin: 0 40px;
+    justify-content: center;
+    text-align: left;
 }
 
 .connect a{
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-size: large;
+    margin: 5px 5px;
 }
 
-.connect{
-    margin: 20px 0 ;
+.connect p{
+    font-size: medium;
+    margin: 5px 0 0 15px;
+    font-weight: bold;
 }
+
 
 
 
