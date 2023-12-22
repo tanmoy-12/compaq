@@ -1,9 +1,17 @@
-@media screen and (min-width:1024px) and (max-width:1200px) {
+@media screen and (min-width:290px) and (max-width:575px) {
     body{
-        background-color: #ffffff;
+        background-color: #000000;
         padding: 0;
         margin: 0;
         font-family: 'Poppins', sans-serif;
+    }
+
+    .wrapper-main{
+        width: 100%;
+        background-color:#00204a;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
     }
     
     .header {
@@ -26,14 +34,11 @@
         text-align: center;
         justify-content: center;
         margin: 20px auto;
-        display: flex;
         color: #fff;
     }
     
     .navigation p{
-        margin: 0 20px;
-        font-size: larger;
-        font-weight: bold;
+       display: none;
     }
     
     .nav_link {
@@ -50,14 +55,6 @@
         border-bottom: 1px solid #000000;
     }
     
-    .wrapper-main {
-        background-color:#00204a;
-        max-width: 2000px;
-        margin: 0 auto;
-        justify-content: center;
-        text-align: center;
-        transition: background-color 0.3s ease; 
-    }
     
     .container-header {
         justify-content: center;
@@ -108,7 +105,7 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        padding: 20px 0;
+        padding: 20px 20px;
     }
     .heading h1{
         font-size: 36px;
@@ -208,13 +205,15 @@
     
     .container-3  h1{
         margin: 20px 0;
+        font-size: larger;
     }
     
     .container-pic {
         justify-content: center;
         margin:0 auto;
-        width: 70%;
-        height: 500px;
+        width: 170;
+        height: 200px;
+        padding: 10px;
     }
     
     .container-pic img {
@@ -228,7 +227,7 @@
     .why-us{
         justify-content: center;
         background-color: azure;
-        padding:30px;
+        padding:50px;
     }
     
     .choose-container{
@@ -275,7 +274,6 @@
     }
     
     .footer-content {
-        display: flex;
         justify-content: center;
         margin: 0 auto;
     }
@@ -327,40 +325,4 @@
         margin: 40px 0 0 0;
         font-size: larger;
     }
-    
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:575px) {
-    
 }
