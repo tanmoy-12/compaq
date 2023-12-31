@@ -1,4 +1,4 @@
-@media screen and (min-width:1024px) {
+
     body{
         background-color: #ffffff;
         padding: 0;
@@ -96,6 +96,13 @@
         color: rgb(255, 255, 255);
         z-index: 2;
     }
+
+    .notice{
+        padding: 20px 80px;
+        background-color: #f5d2a9;
+        font-size: x-large;
+        color: red;
+    }
     
     .training{
         background-color: #008080;
@@ -129,6 +136,16 @@
         color: #1e233a;
         flex-wrap:wrap;
     }
+  
+    .course-container {
+        padding:0 10px;
+    }
+
+    .course-container p{
+        height: 120px;
+        font-size: larger;
+        letter-spacing: 0.06em;
+    }
     
     .course-container:nth-child(even) {
         box-sizing: border-box;
@@ -153,8 +170,9 @@
     }
     
     .non-certificate-course{
-        padding: 30px 20px;
-        background-color: #006695;
+        margin: 0 auto;
+        display: flex;
+        background-color: #759ef6;
         text-align: center;
         justify-content: center;
         color: #ffffff;
@@ -163,38 +181,24 @@
     .ncourses{
         display: flex;
         justify-content: center;
-        color: #000000;
+        text-align: center;
+        width: 450px;
         flex-wrap:wrap;
+        font-size: large;
+        color: #00204a;
+        padding: 30px 0;
     }
-    
-    .non-certificate-course-container:nth-child(even) {
-        box-sizing: border-box;
-        border: 7px solid #ffffff;
-        border-radius: 8px;
-        padding: 10px;
-        background: linear-gradient(to right, #ffd700 , #00cc99);
-        box-shadow: 0 0 8px 3px rgb(5, 5, 5, 0.2);
-        margin: 20px 20px;
-        width: 300px;
+
+    .text{
+        text-align: left;
+        margin: 0 auto;
+        font-size: x-large;
+        font-weight: 7003;
     }
-    
-    .non-certificate-course-container:nth-child(odd) {
-        box-sizing: border-box;
-        border: 7px solid #ffffff;
-        border-radius: 8px;
-        padding: 10px;
-        background: linear-gradient(to right, #98fb98 , #9370db);
-        box-shadow: 0 0 8px 3px rgb(5, 5, 5, 0.2);
-        margin: 20px 20px;
-        width: 300px;
-    }
-    .non-certificate-course-container p{
-        font-size: larger;
-        letter-spacing: 0.06em;
-    }
-    .course-container p{
-        font-size: larger;
-        letter-spacing: 0.06em;
+
+    .classes{
+        color: #471a00;
+        font-weight: bold;
     }
     
     .container-3 {
@@ -333,7 +337,6 @@
     }
     
     
-}
 
 
 
