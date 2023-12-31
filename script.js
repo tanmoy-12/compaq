@@ -6,7 +6,7 @@ const certificate_course = [
     { course_name: 'DDTP', course_details: 'PageMaker, Corel Draw, Corel Photo Paint, Photoshop', course_duration: '6 months' },
     { course_name: 'DCA', course_details: 'Windows, Windows Explorer, Command Prompt, MS-Word, MS-Powerpoint, MS-Excel, MS-Access', course_duration: '6 months' },
     { course_name: 'Language', course_details: 'C++, Foxpro(Database)', course_duration: '3 months' },
-    { course_name: 'Multimedia(Basic)', course_details: 'Course Curriculum for (ICSE/CBSE & WBBSE), Logo, Windows, MS-Word, MS-PowerPoint, MS-Excel, HTML', course_duration: '3 months' },
+    { course_name: 'Multimedia(Basic)', course_details: 'Photoshop, Macromedia Flash, CyberLink Power Director', course_duration: '3 months' },
     { course_name: 'ADCA', course_details: 'Windows, Windows Explorer, Command Prompt, MS-Word, MS-Powerpoint, MS-Excel, MS-Access, Visual Basic, HTML, Foxpro', course_duration: '12 months' }
 ];
 
